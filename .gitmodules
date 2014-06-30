@@ -7,3 +7,6 @@
 [submodule "modules/completion/external"]
 	path = modules/completion/external
 	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "modules/prompt/pure"]
+	path = modules/prompt/pure
+	url = https://github.com/sindresorhus/pure.git
