@@ -12,3 +12,4 @@ fi
 
 # Customize to your needs...
 
+[[ -s "$HOME/.zsh_aliases" ]] && source "$HOME/.zsh_aliases"

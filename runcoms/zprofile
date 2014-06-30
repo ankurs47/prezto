@@ -17,9 +17,10 @@ fi
 # Editors
 #
 
-export EDITOR='nano'
-export VISUAL='nano'
-export PAGER='less'
+export EDITOR='vim'
+export VISUAL='vim'
+export PAGER='most'
+export GIT_EDITOR='vim'
 
 #
 # Language
@@ -75,3 +76,6 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+export GNOME_KEYRING_CONTROL=$XDG_RUNTIME_DIR/keyring
+export SDL_AUDIODRIVER=pulse
+eval `dircolors /etc/dir_colors`
